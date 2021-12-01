@@ -1,0 +1,51 @@
+{
+    "schemaType": "VISUALIZATION",
+    "id": "color-cwv",
+    "displayName": "Color Core Web Vitals (CWVs)",
+    "description": "Color Core Web Vitals (CWVs)",
+    "configuration": [
+        {
+            "name": "nrqlQueries",
+            "title": "NRQL Queries",
+            "type": "collection",
+            "items": [
+                {
+                    "name": "accountId",
+                    "title": "Account ID",
+                    "description": "Account ID to be associated with the query",
+                    "type": "account-id"
+                },
+                {
+                    "name": "query",
+                    "title": "Query",
+                    "description": "NRQL query for visualization",
+                    "type": "nrql"
+                }
+            ]
+        },
+        {
+            "name": "alternateColors",
+            "title": "Toggle alternate colors",
+            "type": "boolean",
+            "description": "Will toggle the alternate colors on/off"
+        },
+        {
+            "name": "color1",
+            "title": "arg1 color",
+            "description": "A fill color for the first argument",
+            "type": "string"
+        },
+        {
+            "name": "color2",
+            "title": "arg2 color",
+            "description": "A fill color for the second argument",
+            "type": "string"
+        },
+        {
+            "name": "color3",
+            "title": "arg3 color",
+            "description": "A fill color for the third argument",
+            "type": "string"
+        }
+    ]
+}

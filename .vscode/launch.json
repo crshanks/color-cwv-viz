@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "NR1: Chrome Launch",
+            "type": "chrome",
+            "request": "launch",
+            "smartStep": true,
+            "showAsyncStacks": true,
+            "url": "https://one.newrelic.com/launcher/nr1-core.home?nerdpacks=local",
+            "pathMapping": {
+                "webpack://__nr_modules./[name]/nerdlets": "${workspaceFolder}/nerdlets"
+            }
+        }
+    ]
+}
